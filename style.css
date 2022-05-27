@@ -134,12 +134,15 @@ form textarea*/
     font-size: 18px;
     border: none;
     border-radius: 5px;
-    transition: 1s background;
+    transition: 0.5s all;
     cursor: pointer;
 }
 
 .enviar:hover {
     background: darkorange;
+    transform: scale(1.2);
+    /*transform: rotate(90deg);
+    transform: rotate(90deg) scale(1.2); */
 }
 
 
